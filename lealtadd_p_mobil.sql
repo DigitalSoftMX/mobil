@@ -602,6 +602,7 @@ CREATE TABLE `pipes` (
   `compartimentos` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
   `capacidad_compartimiento` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
   `contenedor_disponible` varchar(191) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `tractor_id` bigint(20) UNSIGNED NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
